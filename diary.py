@@ -55,7 +55,6 @@ class DiaryApp(QWidget):
         print(f"일기가 {file_path}에 저장되었습니다.")
         self.text_edit.clear()
 
-        #일기 불러오기
     def load_diary(self):
             # 파일 불러오기 다이얼로그 열기
             options = QFileDialog.Options()
