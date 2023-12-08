@@ -56,19 +56,6 @@ class DiaryApp(QWidget):
         self.text_edit.clear()
 
         #일기 불러오기
-    # def load_diary(self):
-    #     selected_date = self.date_edit.date().toString('yyyy-MM-dd')
-
-    #     file_path = f"diary_{selected_date}.txt"
-
-    #     if os.path.exists(file_path):
-
-    #         with open(file_path, 'r', encoding='utf-8') as file:
-    #             self.text_edit.setText(file.read())
-
-    #     else :
-    #         QMessageBox.warning(self, '경고', '저장된 일기가 없습니다.')
-
     def load_diary(self):
             # 파일 불러오기 다이얼로그 열기
             options = QFileDialog.Options()
